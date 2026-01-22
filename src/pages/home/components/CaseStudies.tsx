@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export default function CaseStudies() {
-  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+ 
 
   const caseStudies = [
     {
