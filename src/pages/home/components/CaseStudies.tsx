@@ -1,4 +1,4 @@
-import { useState } from 'react';
+
 
 export default function CaseStudies() {
  
@@ -69,8 +69,7 @@ export default function CaseStudies() {
             <div
               key={index}
               className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden cursor-pointer"
-              onMouseEnter={() => setHoveredIndex(index)}
-              onMouseLeave={() => setHoveredIndex(null)}
+
             >
               {/* Gradient Header */}
               <div className={`h-2 bg-gradient-to-r ${study.color}`}></div>
